@@ -74,9 +74,9 @@ $(function() {
      */
     it('toggles on and off', function() {
       const body = document.querySelector('body');
-      const menu = document.querySelector('.menu-icon-link');
+      const menuIcon = document.querySelector('.menu-icon-link');
 
-      menu.click();
+      menuIcon.click();
       expect(body.classList.contains('menu-hidden')).toBe(false);
     });
 
@@ -99,7 +99,6 @@ $(function() {
     it('init and complete', function() {
       const feed = document.querySelector('.feed');
       expect(feed.children.length > 0).toBe(true);
-
     });
   });
 
@@ -116,15 +115,15 @@ $(function() {
      * Remember, loadFeed() is asynchronous.
      */
 
-     beforeEach(function(done) {
-       loadFeed(0)
-       Array.from(feed.children).forEach(function (entry) {
-         firstFeed.push(entry.innerText);
-       })
-       loadFeed(1, done)
-     });
+    beforeEach(function(done) {
+      loadFeed(0)
+      Array.from(feed.children).forEach(function(entry) {
+        firstFeed.push(entry.innerText);
+      })
+      loadFeed(1, done)
+    });
 
-    it('content change', function() {
+    it('gets a different feed', function() {
       Array.from(feed.children).forEach(function(entry, index) {
         console.log(entry.innerText, firstFeed[index], entry.innerText === firstFeed[index]);
         expect(entry.innerText === firstFeed[index]).toBe(false);
