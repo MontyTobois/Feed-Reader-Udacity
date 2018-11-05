@@ -75,7 +75,6 @@ $(function() {
     it('toggles on and off', function() {
       const body = document.querySelector('body');
       const menuIcon = document.querySelector('.menu-icon-link');
-
       menuIcon.click();
       expect(body.classList.contains('menu-hidden')).toBe(false);
     });
@@ -125,9 +124,7 @@ $(function() {
 
     it('gets a different feed', function() {
       Array.from(feed.children).forEach(function(entry, index) {
-        console.log(entry.innerText, firstFeed[index], entry.innerText === firstFeed[index]);
         expect(entry.innerText === firstFeed[index]).toBe(false);
-
       });
     });
   });
