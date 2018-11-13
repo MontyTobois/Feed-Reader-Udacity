@@ -25,7 +25,8 @@ This project is built with **HTML, CSS, JAVASCRIPT.**
 
 ## Reference
 
-* 2.1 Jasmine documentation - https://jasmine.github.io/2.1/introduction.html
+* 2.1 [Jasmine documentation](https://jasmine.github.io/2.1/introduction.html)
 
-* Testing Your JavaScript With Jasmine - Andrew Burgress https://code.tutsplus.com/tutorials/testing-your-javascript-with-jasmine--net-21229
+* [Testing Your JavaScript With Jasmine](https://code.tutsplus.com/tutorials/testing-your-javascript-with-jasmine--net-21229)
+  - Andrew Burgress 
   - helped show more examples of Jasmine and TTD
