@@ -8,7 +8,7 @@
 
 ## Instructions
 
-# How to run test
+### How to run test
 
 * **Pre-requisite** : Install node.js, npm, and git
 
