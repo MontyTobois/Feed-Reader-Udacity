@@ -28,4 +28,4 @@ This project is built with **HTML, CSS, JAVASCRIPT.**
 * 2.1 [Jasmine documentation](https://jasmine.github.io/2.1/introduction.html)
 
 * [Testing Your JavaScript With Jasmine](https://code.tutsplus.com/tutorials/testing-your-javascript-with-jasmine--net-21229)
-  - Andrew Burgress doc helped show more examples of Jasmine and TTD
+  - Andrew Burgress doc helped show more examples of Jasmine and TDD
