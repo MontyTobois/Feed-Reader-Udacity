@@ -46,7 +46,7 @@ $(function() {
   describe('The menu', function() {
 
     /* A test that ensures the menu element is
-     * hidden by default. 
+     * hidden by default.
      */
 
     it('hidden by default', function() {
@@ -64,6 +64,7 @@ $(function() {
       const menuIcon = document.querySelector('.menu-icon-link');
       menuIcon.click();
       expect(body.classList.contains('menu-hidden')).toBe(false);
+      menuIcon.click();
     });
   });
 
@@ -80,8 +81,8 @@ $(function() {
     });
 
     it('init and complete', function() {
-      const feed = document.querySelector('.feed .entry');
-      expect(feed.children.length > 0).toBe(true);
+      const feed = document.querySelectorAll('.feed .entry');
+      expect(feed.length).toBeGreaterThan(0);
     });
   });
 
