@@ -1,0 +1,23 @@
+{
+  "name": "frontend-nanodegree-feedreader-master",
+  "version": "1.0.0",
+  "description": "## Table of Contents",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontyTobois/Feed-Reader-Udacity.git"
+  },
+  "author": "Andre Tobois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MontyTobois/Feed-Reader-Udacity/issues"
+  },
+  "homepage": "https://github.com/MontyTobois/Feed-Reader-Udacity#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
