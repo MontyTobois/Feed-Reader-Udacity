@@ -2,9 +2,14 @@ const express = require('express');
 
 const app = express();
 
-app.get('/jasmine', (req, res) => {
-  res.sendFile(path.join(__dirname+'/dist/index.html'));
+app.get('/index.html', (req, res) => {
+  res.json("app");
 });
+
+app.get('/jamsine', (req, res) => {
+  res.json("jasmine");
+});
+
 
 const port = process.env.PORT || 8080;
 
