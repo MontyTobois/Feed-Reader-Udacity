@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/api/customers', (req, res) => {
 
-  res.json("jasmine")
+  res.json("index", "jasmine")
 });
 
 const port = process.env.PORT || 8080;
